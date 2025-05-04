@@ -1,9 +1,9 @@
 // YOUR CODE BELOW
-function greeting(name){
-    if(name){
+const greeting=(name)=>{
+    if(typeof name === "string" &&  name > 0){
         return "hellow" + name ;
     }
-    else {
+    else{
         return "hellow !";
     }
 }
